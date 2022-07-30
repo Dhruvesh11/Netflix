@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
 .background {
-    background-image: url('./img/netflix.jpg');
+    /* background-image: url('./img/netflix.jpg'); */
+    background-image: linear-gradient(rgba(28, 25, 25, 0.432),rgba(33, 28, 28, 0.557)),url('./img/netflix.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -12,6 +12,84 @@
     background-repeat:no-repeat ;
     position: absolute;
 }
-.img{
+img{
     
+         height:166px ;
+        /* padding: 20px 78px 0px 0px ;  */
+        margin:-44px 63px;
+  }
+.Signin__body{
+    padding: 60px 30px 60px 60px;
+    z-index: 2;
+    position: relative;
+    max-width:370px ;
+    height: 630px;
+    margin-left: 35%;
+    background: rgba(13, 11, 11, 0.966);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+h2{
+    margin-bottom:20px;
+}
+.Signin__box h2{
+    font-size: 32px;
+    color: #fff;
+    margin-top: -30px;
+}
+.Signin__box input{
+    height: 40px;
+    width: 80%;
+    /* background: #333; */
+    border-radius: 5px;
+    padding-left: 19px;
+    outline: none;
+    border: 4px;
+    
+}
+.input{
+    margin-bottom: 30px;
+}
+.p1{
+    margin-bottom: 30px;
+}
+.s1{
+    margin-bottom: 10px;
+}
+button{
+    height: 40px;
+    width: 88%;
+    font-size: 15px;
+    margin-left: -2px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+button:hover{
+    background-color: rgb(240, 13, 13);
+}
+.r1{
+    display: flex;
+    /* flex-direction: row; */
+    /* margin-top: -15px; */
+}
+.rem{
+    color: lightgrey;
+    font-size: smaller;
+    margin-top: 12px;
+}
+.need{
+    color: lightgrey;
+    font-size: smaller;
+    margin-top: 12px;
+}
+.harsh{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-bottom: 60px;
+}
+.words{
+    color: lightgrey;
+    font-size: smaller;
 }
